@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS GAMES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/blacklogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+          <div class="forimg">
+            <img src="img/blacklogo.png" >
+            <h2>PlayStation</h2>
+                </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div id="dropShop">
+                <i class="fa fa-times close" id="closeShop"></i>
+            </div>
+            <div id="dropList">
+                 <i class="fa fa-times close" id="closeList"></i>
+                 
+              
+            </div>
+
+        </nav>
+        <div class="for_icons">
+            <i class="fa fa-phone"></i>
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-heart heart"><span class="shp likeBtn" id="listCount">0</span></i>
+            <i class="fa fa-shopping-cart shopping">  <span class="shp shopBtn" id="shopCount">0</span></i>
+        </div>
+    </header>
+
+    <div class="for_space"></div>
+
+    <main>
+        <h1>About US</h1>
+        <div class="about_us">
+            <h1>We are PlayStation</h1>
+            <p>About Sony Interactive Entertainment 
+                Recognized as a global leader in interactive and digital entertainment, Sony Interactive Entertainment (SIE) is responsible for the PlayStation® brand and family of products and services. PlayStation has delivered innovation to the market since the launch of the original PlayStation in Japan in 1994. 
+                <br><br>
+                The PlayStation family of products and services include PlayStation®5, PlayStation®4, PlayStation®VR, PlayStation™Store, PlayStation®Plus and acclaimed PlayStation software titles from PlayStation Studios. 
+                <br><br>
+                Headquartered in San Mateo, California, SIE is a wholly-owned subsidiary of Sony Group Corporation and has global functions in California, London, and Tokyo.</p>
+        </div>
+        <video src="video/PlayStation 4.mp4" width="100%" autoplay  muted loop></video>
+    </main>
+
+    <section class="shop">
+        <h2>Catalog</h2>
+        <input type="search" id="searchBytext" placeholder="Type To Search">
+        <div class="double_range_slider_box">
+            <div class="double_range_slider">
+              <span class="range_track" id="range_track"></span>
+    
+                <input type="range" class="min rang" min="0" max="100000" value="0" step="0">
+                <input type="range" class="max rang" min="0" max="100000" value="100000" step="0">
+            
+              <div class="minvalue"></div>
+              <div class="maxvalue"></div>
+            </div>
+        </div>
+            <div class="for-carts" id="for-cards">
+                <!-- <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>Need For Speed</h3>
+                    <img src="img/needf.png" alt="">
+                    <div class="price">
+                        <h4 class="num1">1</h4>
+                        <h4 class="num2">0</h4>
+                        <h4 class="num3">0</h4>
+                        <h4 class="num4">0</h4>
+                        <h4 class="num5">0</h4>
+                        <h4 class="num6">Դ</h4>
+                    </div>
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>Red Dead Redemption 2</h3>
+                        <img src="img/reddeadrd.png" alt="">
+                        <div class="price">
+                            <h3 class="num1">1</h3>
+                            <h3 class="num2">0</h3>
+                            <h3 class="num3">0</h3>
+                            <h3 class="num4">0</h3>
+                            <h3 class="num5">0</h3>
+                            <h3 class="num6">Դ</h3>
+                        </div>
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>Far Cry 3</h3>
+                    <img src="img/farcry.png" alt="">
+                    <div class="price">
+                        <h3 class="num1">1</h3>
+                        <h3 class="num2">0</h3>
+                        <h3 class="num3">0</h3>
+                        <h3 class="num4">0</h3>
+                        <h3 class="num5">0</h3>
+                        <h3 class="num6">Դ</h3>
+                    </div>
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>GTA 5</h3>
+                    <img src="img/gta5.png" alt="">
+                    <div class="price">
+                        <h3 class="num1">1</h3>
+                        <h3 class="num2">0</h3>
+                        <h3 class="num3">0</h3>
+                        <h3 class="num4">0</h3>
+                        <h3 class="num5">0</h3>
+                        <h3 class="num6">Դ</h3>
+                    </div>
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>FIFA 23</h3>
+                    <img src="img/fifa23.png" alt="">
+                    <div class="price">
+                        <h3 class="num1">1</h3>
+                        <h3 class="num2">0</h3>
+                        <h3 class="num3">0</h3>
+                        <h3 class="num4">0</h3>
+                        <h3 class="num5">0</h3>
+                        <h3 class="num6">Դ</h3>
+                    </div>
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-star"></i>
+                    <h3>Mortal Kombat X</h3>
+                    <img src="img/mortalkmb.png" alt="">
+                    <div class="price">
+                        <h3 class="num1">1</h3>
+                        <h3 class="num2">0</h3>
+                        <h3 class="num3">0</h3>
+                        <h3 class="num4">0</h3>
+                        <h3 class="num5">0</h3>
+                        <h3 class="num6">Դ</h3>
+                    </div> 
+                    <div class="for-buy">
+                        <i class="fa fa-plus plus"></i>
+                        <span>0</span>
+                        <i class="fa fa-minus minus"></i>
+                        <button>Shop Now</button>
+                    </div> -->
+                </div>
+            </div>
+    </section>
+
+    <div class="info">
+        <h1>
+            FOLLOW US ON SOCIAL NETWORKS
+        </h1>
+        <div class="icons_info">
+            <a href="https://twitter.com/PlayStation"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/playstation/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/playstation/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@PlayStation"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <footer>
+    <a href="#"> <i class="fa fa-arrow-up forUp"></i></a>    
+        <div class="ftr">
+            <div class="for_ftr">
+                <img src="img/whitelogo.png" alt="">
+                <h2>PlayStation</h2>
+            </div>
+        </div>
+        <div class="information">
+            <div class="for_inform">
+                <div class="inf">
+                    <h3>About Us</h3>
+                    <a href="">O SIE</a>
+                    <a href="">CARIER</a>
+                    <a href="">PLAYSTATION STUDIOS</a>
+                    <a href="">COMPANY</a>
+                </div>
+                <div class="inf">
+                    <h3>PRODUCTS</h3>
+                    <a href="">PS 5</a>
+                    <a href="">PS 4</a>
+                    <a href="">PS VR 2</a>
+                    <a href="">PS PLUS</a>
+                    <a href="">ACCESSORIES</a>
+                    <a href="">GAMES</a>
+                </div>
+                <div class="inf">
+                    <h3>VALUES</h3>
+                    <a href="">ENVIRONMENT</a>
+                    <a href="">SPECIAL ABILITIES</a>
+                    <a href="">NETWORK SECURITY</a>
+                    <a href="">DIVERSITY, EQUITY AND INCLUSION</a>
+                </div>
+                <div class="inf">
+                    <h3>SUPPORT</h3>
+                    <a href="">SUPPORT CENTER</a>
+                    <a href="">SECURITY GROUP PLAYSTATION</a>
+                    <a href="">STATUS PSN</a>
+                    <a href="">REPAIR PLAYSTATION</a>
+                    <a href="">PASSWORD RESET</a>
+                    <a href="">MANAGEMENT</a>
+                </div>
+                <div class="inf">
+                    <h3>RESOURCES</h3>
+                    <a href="">TERMS OF SERVICE PSN</a>
+                    <a href="">RULES CANCEL PURCHASES IN PS STORE</a>
+                    <a href="">AGE RATINGS</a>
+                    <a href="">PRECAUTIONARY MEASURES</a>
+                    <a href="">DEVELOPERS</a>
+                </div>
+                <div class="inf">
+                    <h3>CONNECTION</h3>
+                    <div class="inf_icn">
+                        <a href="https://twitter.com/PlayStation"><i class="fa fa-twitter twitter"></i></a>
+                        <a href="https://www.facebook.com/playstation/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/playstation/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@PlayStation"><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <a href="">APP FOR IOS</a>
+                    <a href="">APP FOR ANDROID</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="end">
+            <div class="for_end">
+                <div class="region">
+                    <i class="fa fa-globe"></i>
+                    <a href="#">Country/Region: Russia</a>
+                </div>
+                <div class="contrls">
+                    <div class="cnt">
+                        <a href="">Legal Information</a>
+                    </div>
+                    <div class="cnt">
+                        <a href="">Privacy Policy</a>
+                    </div>
+                    <div class="cnt">
+                        <a href="">Terms Of Use Of The Site</a>
+                    </div>
+                    <div class="cnt">
+                        <a href="">Site Map</a>
+                    </div>
+                    <div class="cnt">
+                        <a href="">Usage Policy cookies</a>
+                    </div>
+                    <div class="cnt">
+                        <a href="">Software Terms Of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
